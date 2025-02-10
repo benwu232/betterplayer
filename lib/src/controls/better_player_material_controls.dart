@@ -388,7 +388,7 @@ class _BetterPlayerMaterialControlsState
                 else
                   const SizedBox(),
                 if (_controlsConfiguration.enablePlayPause)
-                  Expanded(child: _buildReplayButton(_controller!)),
+                  Expanded(child: _buildReplayButton(_controller!))
                 else
                   const SizedBox(),
                 if (_controlsConfiguration.enableSkips)
